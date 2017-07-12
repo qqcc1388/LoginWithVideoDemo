@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC028A21F15F8CD00807D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028A11F15F8CD00807D3B /* main.m */; };
+		2AC028A51F15F8CD00807D3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028A41F15F8CD00807D3B /* AppDelegate.m */; };
+		2AC028A81F15F8CD00807D3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028A71F15F8CD00807D3B /* ViewController.m */; };
+		2AC028AB1F15F8CD00807D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC028A91F15F8CD00807D3B /* Main.storyboard */; };
+		2AC028AD1F15F8CD00807D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC028AC1F15F8CD00807D3B /* Assets.xcassets */; };
+		2AC028B01F15F8CD00807D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC028AE1F15F8CD00807D3B /* LaunchScreen.storyboard */; };
+		2AC028BB1F15F8CD00807D3B /* LoginWithVideoDmeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028BA1F15F8CD00807D3B /* LoginWithVideoDmeoTests.m */; };
+		2AC028C61F15F8CD00807D3B /* LoginWithVideoDmeoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028C51F15F8CD00807D3B /* LoginWithVideoDmeoUITests.m */; };
+		2AC028D81F160B5600807D3B /* loadGif.html in Resources */ = {isa = PBXBuildFile; fileRef = 2AC028D71F160B5600807D3B /* loadGif.html */; };
+		2AC028DC1F160C2000807D3B /* loadgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AC028DB1F160C2000807D3B /* loadgif.gif */; };
+		2AC028E21F16100100807D3B /* BridgeLoop-640p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC028E11F16100100807D3B /* BridgeLoop-640p.mp4 */; };
+		2AC028EE1F16156F00807D3B /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028E51F16156F00807D3B /* YYAnimatedImageView.m */; };
+		2AC028EF1F16156F00807D3B /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028E71F16156F00807D3B /* YYFrameImage.m */; };
+		2AC028F01F16156F00807D3B /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028E91F16156F00807D3B /* YYImage.m */; };
+		2AC028F11F16156F00807D3B /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028EB1F16156F00807D3B /* YYImageCoder.m */; };
+		2AC028F21F16156F00807D3B /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC028ED1F16156F00807D3B /* YYSpriteSheetImage.m */; };
+		2AC028F51F1616B700807D3B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC028F41F1616B700807D3B /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC028B71F15F8CD00807D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC028951F15F8CD00807D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC0289C1F15F8CD00807D3B;
+			remoteInfo = LoginWithVideoDmeo;
+		};
+		2AC028C21F15F8CD00807D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC028951F15F8CD00807D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC0289C1F15F8CD00807D3B;
+			remoteInfo = LoginWithVideoDmeo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC0289D1F15F8CD00807D3B /* LoginWithVideoDmeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginWithVideoDmeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC028A11F15F8CD00807D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AC028A31F15F8CD00807D3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AC028A41F15F8CD00807D3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AC028A61F15F8CD00807D3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AC028A71F15F8CD00807D3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AC028AA1F15F8CD00807D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC028AC1F15F8CD00807D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC028AF1F15F8CD00807D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC028B11F15F8CD00807D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC028B61F15F8CD00807D3B /* LoginWithVideoDmeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginWithVideoDmeoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC028BA1F15F8CD00807D3B /* LoginWithVideoDmeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginWithVideoDmeoTests.m; sourceTree = "<group>"; };
+		2AC028BC1F15F8CD00807D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC028C11F15F8CD00807D3B /* LoginWithVideoDmeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginWithVideoDmeoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC028C51F15F8CD00807D3B /* LoginWithVideoDmeoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginWithVideoDmeoUITests.m; sourceTree = "<group>"; };
+		2AC028C71F15F8CD00807D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC028D71F160B5600807D3B /* loadGif.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = loadGif.html; sourceTree = "<group>"; };
+		2AC028DB1F160C2000807D3B /* loadgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadgif.gif; sourceTree = "<group>"; };
+		2AC028E11F16100100807D3B /* BridgeLoop-640p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BridgeLoop-640p.mp4"; sourceTree = "<group>"; };
+		2AC028E41F16156F00807D3B /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		2AC028E51F16156F00807D3B /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		2AC028E61F16156F00807D3B /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		2AC028E71F16156F00807D3B /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		2AC028E81F16156F00807D3B /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		2AC028E91F16156F00807D3B /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		2AC028EA1F16156F00807D3B /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		2AC028EB1F16156F00807D3B /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		2AC028EC1F16156F00807D3B /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		2AC028ED1F16156F00807D3B /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		2AC028F41F1616B700807D3B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC0289A1F15F8CD00807D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC028F51F1616B700807D3B /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC028B31F15F8CD00807D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC028BE1F15F8CD00807D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC028941F15F8CD00807D3B = {
+			isa = PBXGroup;
+			children = (
+				2AC0289F1F15F8CD00807D3B /* LoginWithVideoDmeo */,
+				2AC028B91F15F8CD00807D3B /* LoginWithVideoDmeoTests */,
+				2AC028C41F15F8CD00807D3B /* LoginWithVideoDmeoUITests */,
+				2AC0289E1F15F8CD00807D3B /* Products */,
+				2AC028F31F1616B700807D3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC0289E1F15F8CD00807D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC0289D1F15F8CD00807D3B /* LoginWithVideoDmeo.app */,
+				2AC028B61F15F8CD00807D3B /* LoginWithVideoDmeoTests.xctest */,
+				2AC028C11F15F8CD00807D3B /* LoginWithVideoDmeoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC0289F1F15F8CD00807D3B /* LoginWithVideoDmeo */ = {
+			isa = PBXGroup;
+			children = (
+				2AC028E31F16156F00807D3B /* YYImage */,
+				2AC028A31F15F8CD00807D3B /* AppDelegate.h */,
+				2AC028A41F15F8CD00807D3B /* AppDelegate.m */,
+				2AC028A61F15F8CD00807D3B /* ViewController.h */,
+				2AC028A71F15F8CD00807D3B /* ViewController.m */,
+				2AC028A91F15F8CD00807D3B /* Main.storyboard */,
+				2AC028AC1F15F8CD00807D3B /* Assets.xcassets */,
+				2AC028AE1F15F8CD00807D3B /* LaunchScreen.storyboard */,
+				2AC028B11F15F8CD00807D3B /* Info.plist */,
+				2AC028A01F15F8CD00807D3B /* Supporting Files */,
+			);
+			path = LoginWithVideoDmeo;
+			sourceTree = "<group>";
+		};
+		2AC028A01F15F8CD00807D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AC028E11F16100100807D3B /* BridgeLoop-640p.mp4 */,
+				2AC028D71F160B5600807D3B /* loadGif.html */,
+				2AC028DB1F160C2000807D3B /* loadgif.gif */,
+				2AC028A11F15F8CD00807D3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AC028B91F15F8CD00807D3B /* LoginWithVideoDmeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC028BA1F15F8CD00807D3B /* LoginWithVideoDmeoTests.m */,
+				2AC028BC1F15F8CD00807D3B /* Info.plist */,
+			);
+			path = LoginWithVideoDmeoTests;
+			sourceTree = "<group>";
+		};
+		2AC028C41F15F8CD00807D3B /* LoginWithVideoDmeoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC028C51F15F8CD00807D3B /* LoginWithVideoDmeoUITests.m */,
+				2AC028C71F15F8CD00807D3B /* Info.plist */,
+			);
+			path = LoginWithVideoDmeoUITests;
+			sourceTree = "<group>";
+		};
+		2AC028E31F16156F00807D3B /* YYImage */ = {
+			isa = PBXGroup;
+			children = (
+				2AC028E41F16156F00807D3B /* YYAnimatedImageView.h */,
+				2AC028E51F16156F00807D3B /* YYAnimatedImageView.m */,
+				2AC028E61F16156F00807D3B /* YYFrameImage.h */,
+				2AC028E71F16156F00807D3B /* YYFrameImage.m */,
+				2AC028E81F16156F00807D3B /* YYImage.h */,
+				2AC028E91F16156F00807D3B /* YYImage.m */,
+				2AC028EA1F16156F00807D3B /* YYImageCoder.h */,
+				2AC028EB1F16156F00807D3B /* YYImageCoder.m */,
+				2AC028EC1F16156F00807D3B /* YYSpriteSheetImage.h */,
+				2AC028ED1F16156F00807D3B /* YYSpriteSheetImage.m */,
+			);
+			path = YYImage;
+			sourceTree = "<group>";
+		};
+		2AC028F31F1616B700807D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC028F41F1616B700807D3B /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC0289C1F15F8CD00807D3B /* LoginWithVideoDmeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC028CA1F15F8CD00807D3B /* Build configuration list for PBXNativeTarget "LoginWithVideoDmeo" */;
+			buildPhases = (
+				2AC028991F15F8CD00807D3B /* Sources */,
+				2AC0289A1F15F8CD00807D3B /* Frameworks */,
+				2AC0289B1F15F8CD00807D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginWithVideoDmeo;
+			productName = LoginWithVideoDmeo;
+			productReference = 2AC0289D1F15F8CD00807D3B /* LoginWithVideoDmeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC028B51F15F8CD00807D3B /* LoginWithVideoDmeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC028CD1F15F8CD00807D3B /* Build configuration list for PBXNativeTarget "LoginWithVideoDmeoTests" */;
+			buildPhases = (
+				2AC028B21F15F8CD00807D3B /* Sources */,
+				2AC028B31F15F8CD00807D3B /* Frameworks */,
+				2AC028B41F15F8CD00807D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC028B81F15F8CD00807D3B /* PBXTargetDependency */,
+			);
+			name = LoginWithVideoDmeoTests;
+			productName = LoginWithVideoDmeoTests;
+			productReference = 2AC028B61F15F8CD00807D3B /* LoginWithVideoDmeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AC028C01F15F8CD00807D3B /* LoginWithVideoDmeoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC028D01F15F8CD00807D3B /* Build configuration list for PBXNativeTarget "LoginWithVideoDmeoUITests" */;
+			buildPhases = (
+				2AC028BD1F15F8CD00807D3B /* Sources */,
+				2AC028BE1F15F8CD00807D3B /* Frameworks */,
+				2AC028BF1F15F8CD00807D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC028C31F15F8CD00807D3B /* PBXTargetDependency */,
+			);
+			name = LoginWithVideoDmeoUITests;
+			productName = LoginWithVideoDmeoUITests;
+			productReference = 2AC028C11F15F8CD00807D3B /* LoginWithVideoDmeoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC028951F15F8CD00807D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LOVEGO;
+				TargetAttributes = {
+					2AC0289C1F15F8CD00807D3B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2AC028B51F15F8CD00807D3B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AC0289C1F15F8CD00807D3B;
+					};
+					2AC028C01F15F8CD00807D3B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AC0289C1F15F8CD00807D3B;
+					};
+				};
+			};
+			buildConfigurationList = 2AC028981F15F8CD00807D3B /* Build configuration list for PBXProject "LoginWithVideoDmeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC028941F15F8CD00807D3B;
+			productRefGroup = 2AC0289E1F15F8CD00807D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC0289C1F15F8CD00807D3B /* LoginWithVideoDmeo */,
+				2AC028B51F15F8CD00807D3B /* LoginWithVideoDmeoTests */,
+				2AC028C01F15F8CD00807D3B /* LoginWithVideoDmeoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC0289B1F15F8CD00807D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC028B01F15F8CD00807D3B /* LaunchScreen.storyboard in Resources */,
+				2AC028DC1F160C2000807D3B /* loadgif.gif in Resources */,
+				2AC028AD1F15F8CD00807D3B /* Assets.xcassets in Resources */,
+				2AC028D81F160B5600807D3B /* loadGif.html in Resources */,
+				2AC028E21F16100100807D3B /* BridgeLoop-640p.mp4 in Resources */,
+				2AC028AB1F15F8CD00807D3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC028B41F15F8CD00807D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC028BF1F15F8CD00807D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC028991F15F8CD00807D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC028A81F15F8CD00807D3B /* ViewController.m in Sources */,
+				2AC028EF1F16156F00807D3B /* YYFrameImage.m in Sources */,
+				2AC028A51F15F8CD00807D3B /* AppDelegate.m in Sources */,
+				2AC028A21F15F8CD00807D3B /* main.m in Sources */,
+				2AC028F21F16156F00807D3B /* YYSpriteSheetImage.m in Sources */,
+				2AC028EE1F16156F00807D3B /* YYAnimatedImageView.m in Sources */,
+				2AC028F11F16156F00807D3B /* YYImageCoder.m in Sources */,
+				2AC028F01F16156F00807D3B /* YYImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC028B21F15F8CD00807D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC028BB1F15F8CD00807D3B /* LoginWithVideoDmeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC028BD1F15F8CD00807D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC028C61F15F8CD00807D3B /* LoginWithVideoDmeoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC028B81F15F8CD00807D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC0289C1F15F8CD00807D3B /* LoginWithVideoDmeo */;
+			targetProxy = 2AC028B71F15F8CD00807D3B /* PBXContainerItemProxy */;
+		};
+		2AC028C31F15F8CD00807D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC0289C1F15F8CD00807D3B /* LoginWithVideoDmeo */;
+			targetProxy = 2AC028C21F15F8CD00807D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC028A91F15F8CD00807D3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC028AA1F15F8CD00807D3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC028AE1F15F8CD00807D3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC028AF1F15F8CD00807D3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC028C81F15F8CD00807D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AC028C91F15F8CD00807D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC028CB1F15F8CD00807D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginWithVideoDmeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovego.LoginWithVideoDmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AC028CC1F15F8CD00807D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginWithVideoDmeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovego.LoginWithVideoDmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AC028CE1F15F8CD00807D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginWithVideoDmeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovego.LoginWithVideoDmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginWithVideoDmeo.app/LoginWithVideoDmeo";
+			};
+			name = Debug;
+		};
+		2AC028CF1F15F8CD00807D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginWithVideoDmeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovego.LoginWithVideoDmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginWithVideoDmeo.app/LoginWithVideoDmeo";
+			};
+			name = Release;
+		};
+		2AC028D11F15F8CD00807D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginWithVideoDmeoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovego.LoginWithVideoDmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginWithVideoDmeo;
+			};
+			name = Debug;
+		};
+		2AC028D21F15F8CD00807D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginWithVideoDmeoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovego.LoginWithVideoDmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginWithVideoDmeo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC028981F15F8CD00807D3B /* Build configuration list for PBXProject "LoginWithVideoDmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC028C81F15F8CD00807D3B /* Debug */,
+				2AC028C91F15F8CD00807D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC028CA1F15F8CD00807D3B /* Build configuration list for PBXNativeTarget "LoginWithVideoDmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC028CB1F15F8CD00807D3B /* Debug */,
+				2AC028CC1F15F8CD00807D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC028CD1F15F8CD00807D3B /* Build configuration list for PBXNativeTarget "LoginWithVideoDmeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC028CE1F15F8CD00807D3B /* Debug */,
+				2AC028CF1F15F8CD00807D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC028D01F15F8CD00807D3B /* Build configuration list for PBXNativeTarget "LoginWithVideoDmeoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC028D11F15F8CD00807D3B /* Debug */,
+				2AC028D21F15F8CD00807D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC028951F15F8CD00807D3B /* Project object */;
+}
