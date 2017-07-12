@@ -118,5 +118,3 @@ oc中
     [self.view addSubview:imgView];
 }
 ```
-
-demo下载地址 ：
