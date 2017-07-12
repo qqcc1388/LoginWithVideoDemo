@@ -1,6 +1,7 @@
 现在app都做的越来越炫酷，各种动画效果，各种特效很好的提高了用户的体验。很多app在登录界面都使用了动画效果，比如Uber，Keep，QQ等等。这些动画效果基本都是使用gif或者MP4来实现的。
 
 效果图：
+
 ![](https://github.com/qqcc1388/LoginWithVideoDemo/blob/master/Resource/ezgif.com-video-to-gif.gif)
 
 这里提供3种方式实现登录界面动画,有需要的同学可以参考一下
